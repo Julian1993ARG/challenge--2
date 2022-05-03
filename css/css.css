@@ -75,6 +75,18 @@ main section article img{
     width: 100%;
     max-width: 250px;
 }
+
+footer{
+    display: block;
+    height: 20px;
+    text-align: center;
+}
+footer p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: rgba(169, 169, 169, 1);
+}
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'PT Serif', serif; */
