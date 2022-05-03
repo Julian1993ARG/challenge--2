@@ -1,0 +1,16 @@
+header {
+    flex-direction: row;
+    align-items: center;
+}
+header h1{
+    padding-top: 0;
+}
+
+.box1 article:nth-child(3), .box2 article:nth-child(3){
+    display: none;
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

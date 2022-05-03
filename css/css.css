@@ -53,6 +53,9 @@ header section p{
     top:20px;
     right: -47px;
 }
+.box3{
+    display: none;
+}
 .box1, .box2{
     display: flex;
     flex-direction: column;
