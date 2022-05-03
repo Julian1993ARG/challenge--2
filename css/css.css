@@ -4,11 +4,13 @@
     max-width: 800px;
     margin: 0 auto;
 }
-
+.header{
+    padding: 0px 47px;
+}
 header{
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 30px;
 }
 header h1{
     font-family: 'PT Serif', serif;
