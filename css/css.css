@@ -29,15 +29,21 @@ header section p{
 
 /* Comenzando la parte de las cards */
 
-
+.cards{
+    height: auto;
+    width: auto;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 .card{
     position: relative;
-    min-width: 125px;
-    min-height: 261px;
+    width: 35%;
 }
 .card .card__img{
     display: block;
-    min-width: 120px;
     min-height: 200px;
     background-image: url(/css/assets/img/photo1.png);
     background-position: center;
@@ -59,10 +65,12 @@ header section p{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 1.8rem;
-    padding-top: 10px;
+    padding-top: 8px;
 }
 
-
+main section article img{
+    min-width: 150px;
+}
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'PT Serif', serif; */
